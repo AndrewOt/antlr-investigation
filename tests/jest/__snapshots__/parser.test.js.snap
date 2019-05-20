@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test1 1`] = `
+Object {
+  "ast": Object {
+    "children": Array [],
+    "type": "json",
+    "value": "",
+  },
+}
+`;
+
+exports[`test2 1`] = `
+Object {
+  "ast": Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"hello\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "\\"world\\"",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+    ],
+    "type": "json",
+    "value": "",
+  },
+}
+`;
+
+exports[`test3 1`] = `
+Object {
+  "ast": Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"test\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "\\"testing\\"",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"testNumber\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "0",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+    ],
+    "type": "json",
+    "value": "",
+  },
+}
+`;
+
+exports[`test4 1`] = `
+Object {
+  "ast": Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"testArray\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "[",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"testObject\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "{",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"testBool\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "true",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [],
+            "type": "key",
+            "value": "\\"testBool2\\"",
+          },
+          Object {
+            "children": Array [],
+            "type": "value",
+            "value": "false",
+          },
+        ],
+        "type": "keyValuePair",
+        "value": "",
+      },
+    ],
+    "type": "json",
+    "value": "",
+  },
+}
+`;
+
+exports[`test5 1`] = `
+Object {
+  "ast": Object {
+    "children": undefined,
+    "type": "json",
+    "value": "",
+  },
+}
+`;
